@@ -1,0 +1,315 @@
+header{
+   background-color: rgb(0, 0, 0);
+}
+.container{
+   display: inline-block;
+   margin-right:30px;
+   padding-top: 15px;
+   padding-bottom: 10px;
+   padding-left: 5em;
+   text-decoration: none;
+   text-transform: capitalize;
+   font-size: 1em;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 12em;
+
+}
+
+#nav{
+   color: rgb(255, 255, 255);
+  text-decoration: none;
+ position: relative;
+ text-align: center;
+ 
+  
+}
+#nav:hover{
+   color: rgb(219, 105, 204);
+  
+
+}
+/*#nav::before{
+   content: '';
+   display: block;
+   height:3px ;
+  
+   background-color: rgb(114, 114, 114);
+   position: absolute;
+   bottom: 0;
+    width:0% ;*/
+
+}
+#nav:hover::before{
+   width:100%;
+}
+
+
+.a1{
+    background-color: rgb(187, 169, 161);
+    color: rgb(248, 248, 246);
+    text-align: center;
+    text-transform: capitalize;
+    font-family:fantasy;
+    font-size: 2em;
+     padding-bottom: 2em;
+     letter-spacing: 0.4em;
+     line-height: 0.4em;
+     background-image:url("food.jpg");
+}
+#image{
+           
+        display: block;
+        margin: 0px auto;
+        width: 250px;
+        height: 200px;
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-left: 2em;
+        
+        
+        
+}   
+#search
+   {
+     
+     font-family: monospace;
+     color: rgb(46, 46, 45);
+     font-size: 1.5em;
+      text-align: center;
+     float: center;
+     padding: 6px;
+     border: none;
+    margin-top: 8px;
+    transition: 0.15s all ease-in-out;
+     border-radius: 8px;
+     
+  
+
+}
+#search:hover{
+   transform: scale(1.1);
+}
+
+#Location
+       {
+        font-family:serif;
+     color: rgb(27, 27, 27);
+     font-size: .5em;
+ 
+     text-align: center;
+     float: center;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  border-radius: 8px;
+  transition: 0.15s all ease-in-out;
+  
+       }
+ #Location:hover{
+   transform: scale(1.1);
+ }      
+
+
+.a2{
+   background-color: blanchedalmond;
+   
+}
+
+.column{
+   float: left;
+   width: 23%;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: 0.15s all ease-in-out;
+  text-align: center;
+  font-family: fantasy;
+font-weight: bold;
+
+
+}  
+#pancake{
+   border-radius: 25px;
+
+
+}
+#tikka{
+   border-radius: 25px;
+}
+#Sweets{
+   border-radius: 25px;
+}
+#desserts{
+   border-radius: 25px;
+
+}   
+
+.column:hover{
+   transform: scale(1.2);
+
+}
+
+
+/*.row::after {
+   content: "";
+   clear: both;
+   display: table; 
+}*/
+
+
+.a3{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 2 em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   letter-spacing: 1em;
+   word-spacing: 2em;
+   text-decoration: underline;
+ 
+   
+}
+
+.column2{
+   float: left;
+   width: 30%;
+  padding: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: 0.15s all ease-in-out;
+  text-align: center;
+  font-family: fantasy;
+font-weight: bold;
+
+}
+
+#breakfast{
+   border-radius: 25px;
+}
+#LUNCH{
+   border-radius: 25px;
+}
+#DINNER{
+   border-radius: 25px;
+}
+.column2:hover{
+   opacity: 1;
+   -webkit-animation: flash 2.5s;
+   animation: flash 2.5s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.a4{
+   background-color: aquamarine;
+}
+.row3{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.column3{
+   float: left;
+   width: 30%;
+  padding: 5px;
+  padding-left: 7px;
+  padding-right: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transition: 0.15s all ease-in-out;
+  text-align: center;
+  font-family: fantasy;
+font-weight: bold;
+}
+.a5{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 2 em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   letter-spacing: 1em;
+   word-spacing: 1.5em;
+   text-decoration: underline;
+   padding-left: 10em;
+   padding-right: 10em;
+  
+   
+}
+#pizza{
+   border-radius: 25px;
+}
+#burger{
+   border-radius: 35px;
+}
+#chinese{
+   border-radius: 25px;
+}
+#coffee{
+   border-radius: 25px;
+}
+#starbucks{
+   border-radius: 25px;
+}
+#biriyani{
+   border-radius: 25px;
+}
+#bengali{
+   border-radius: 25px;
+}
+#cake{
+   border-radius: 25px;
+}
+#icecream{
+   border-radius: 25px;
+}
+
+.column3:hover{
+   
+   opacity: 1;
+   -webkit-animation: flash 2.5s;
+   animation: flash 2.5s;
+}
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.footer{
+   background-color: bisque;
+}
+.footer{
+   text-align: center;
+   text-transform: capitalize;
+   font-size: 2 em;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   letter-spacing: 1em;
+   word-spacing: 2em;
+   text-decoration: underline;
+}
