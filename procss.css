@@ -38,7 +38,7 @@ header{
    bottom: 0;
     width:0% ;*/
 
-}
+
 #nav:hover::before{
    width:100%;
 }
